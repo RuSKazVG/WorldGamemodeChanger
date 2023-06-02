@@ -8,6 +8,7 @@ public class Command implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, org.bukkit.command.@NotNull Command command, @NotNull String label, @NotNull String[] args) {
         WorldGamemodeChanger.plugin.reloadConfig();
+        sender.sendMessage("WGC config reloaded.");
         return true;
     }
 }
