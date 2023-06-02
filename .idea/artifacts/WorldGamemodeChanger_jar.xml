@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WorldGamemodeChanger:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WorldGamemodeChanger_jar</output-path>
+    <root id="archive" name="WorldGamemodeChanger.jar">
+      <element id="module-output" name="WorldGamemodeChanger" />
+    </root>
+  </artifact>
+</component>

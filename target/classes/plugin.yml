@@ -1,0 +1,19 @@
+name: WorldGamemodeChanger
+version: '1.0'
+main: ruskaz.me.worldgamemodechanger.WorldGamemodeChanger
+api-version: 1.16
+authors: [RuSKaz]
+description: Changes player's gamemode depending on his world.
+permissions:
+  worldgamemodechanger.bypass:
+    default: op
+    description: Bypasses check on world change.
+  worldgamemodechanger.reload:
+    default: op
+    description: Allows to reload config.
+
+commands:
+  worldgamemodechanger:
+    permission: worldgamemodechanger.reload
+    usage: /worldgamemodechanger
+    aliases: wgc
